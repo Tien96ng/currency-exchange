@@ -3,30 +3,3 @@ body {
   text-align: center;
   color: white;
 }
-
-.error {
-  color: red;
-}
-
-#apod img {
-  height: 500px;
-  margin-bottom: 20px;
-}
-
-#apod .date {
-  font-weight: bold;
-}
-
-.col-sm {
-  border: white solid 1px;
-  margin: 5px;
-}
-
-hr {
-  border-color: white;
-}
-
-#rover-results img {
-  max-height: 300px;
-  margin: 10px;
-}
