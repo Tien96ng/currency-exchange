@@ -1,9 +1,8 @@
-# Martian News Service
+# Currency Exchange
 
 #### (Brief Description of Application)
 
 #### By Tien Nguyen
-#### Co-Authored By: Jo Miller <joannadawnmiller@gmail.com>
 
 
 ## Technologies Used
