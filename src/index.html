@@ -6,7 +6,36 @@
   <body>
     <div class="container">
       <h1>Currency Exchange Converter</h1>
+      <form id="exchange-form">
+        <div class="row">
+          <div class="col-sm-4">
+            <label for="amount">Amount</label>
+          </div>
+          <div class="col-sm-4">
+            <label for="usd">From</label>
+          </div>
+          <div class="col-sm-4">
+            <label for="to">To</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <span id="dollar-sign">$</span><input type="number" name="amount" id="amount" required min="0">
+          </div>
+          <div class="col-sm-4">
+            <input type="text" name="usd" id="usd" value="USD">
+          </div>
+          <div class="col-sm-4">
+            <select name="to" id="to">
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+      </form>
     </div>
+
+    <div class="ouput"></div>
 
   </body>
 </html>

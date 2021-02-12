@@ -3,3 +3,14 @@ body {
   text-align: center;
   color: white;
 }
+
+select {
+  width: 15em;
+  height: 2em;
+}
+
+#dollar-sign {
+  font-weight: bold;
+  margin-right: 5px;
+  font-size: larger;
+}
