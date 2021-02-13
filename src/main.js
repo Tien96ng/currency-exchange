@@ -2,7 +2,7 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-import {displayCurrency, converter} from "./js/displayCurrency.js";
+import {displayCurrency, converter, otherCurrencyOption} from "./js/displayCurrency.js";
 
 
 $(document).ready(() => {
@@ -11,7 +11,8 @@ $(document).ready(() => {
     event.preventDefault();
     const usdAmount = parseInt($("#amount").val());
     const chosenCurrency = $("#to").val();
+    otherCurrencyOption(chosenCurrency);
     converter(usdAmount, chosenCurrency);
-    $("#equal-sign").show();
+    
   });
 });

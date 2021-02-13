@@ -21,6 +21,11 @@ export async function converter(usd, currency) {
   const currenciesMap = (await displayCurrency());
   let result = await (usd * currenciesMap.get(currency));
   $(".usd-amount").text(`${usd} USD`);
-  $(".converted-amount").text(`${result.toFixed(2)} ${currency}`)
+  $(".converted-amount").text(`${result.toFixed(2)} ${currency}`);
+  $("#equal-sign").show();
   return result;
+}
+
+export function otherCurrencyOption(option) {
+  return option === "other" ? true : false;
 }
