@@ -1,31 +1,20 @@
 # Currency Exchange
 
-#### (Brief Description of Application)
+#### Currency exchange web app that takes in a USD amount (U.S Dollars) and displays the equivalent amount in the currency chosen.
 
 #### By Tien Nguyen
 
 
 ## Technologies Used
 
-* _Babel/core 7.6.4_
-* _Babel/plugin-transform-modules-commonjs 7.6.0_
+* _HTML5/CSS3_
 * _Bootstrap 4.6.0_
-* _clean-webpack-plugin 3.0.0_
-* _CSS3_
-* _css-loader 3.2.0_
-* _eslint 6.3.0_
-* _eslint-loader 3.0.0_
-* _HTML5_
-* _html-webpack-plugin 3.2.0_
-* _JavaScript_
-* _Jest 24.9.0_
+* _JavaScript ES6_
 * _jQuery 3.5.1_
 * _Node Package Manager 6.14.9_
-* _popper.js 1.16.1_
-* _style-loader 1.0.0_
 * _webpack 4.39.3_
-* _webpack-cli 3.3.8_
-* _webpack-dev-server 3.11.2_
+* _Babel 7.6.4_
+* _eslint 6.3.0_
 
 ## Description
 
