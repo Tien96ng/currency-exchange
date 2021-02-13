@@ -48,6 +48,7 @@ _Currency converter app using the [ExchangeRate-Api](https://www.exchangerate-ap
 
 ## Project Goals / Further Exploration
 
+* _Add Functionality to go back to dropdown instead of manual input via "Other" option._
 * _Currency Icons_
 * _Currency of Origin Icons / Flags_
 * _Interchangeable Currency conversions (For Example: AUD to EUR)._
