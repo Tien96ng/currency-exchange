@@ -14,3 +14,15 @@ select {
   margin-right: 5px;
   font-size: larger;
 }
+
+.error {
+  color: red;
+}
+
+button {
+  margin-top: 15px;
+}
+
+input:hover, select:hover {
+  cursor: url(https://cur.cursors-4u.net/others/oth-2/oth192.cur), auto !important;
+}
