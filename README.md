@@ -28,9 +28,11 @@
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _None at the moment (2/12/2021)_
 
 ## License
+_This software is licensed under the MIT license_
+Copyright (c) 2020 __Tien Nguyen__
 
 ## Contact Information
+_<Tien96ng@github.com>_
