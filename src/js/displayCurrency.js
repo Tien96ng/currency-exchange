@@ -29,3 +29,10 @@ export async function converter(usd, currency) {
 export function otherCurrencyOption(option) {
   return option === "other" ? true : false;
 }
+
+export function otherCurrencyValidTest(chosenCurrency, usdAmount) {
+  return displayCurrency()
+        .then(response => response.has(chosenCurrency) ? 
+          converter(usdAmount, chosenCurrency) : 
+          $(".error").text(`"Other" currency you entered is invalid or cannot be found.`));
+}

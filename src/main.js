@@ -2,25 +2,24 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-import {displayCurrency, converter, otherCurrencyOption} from "./js/displayCurrency.js";
+import {displayCurrency, otherCurrencyValidTest, otherCurrencyOption} from "./js/displayCurrency.js";
 
 
 $(document).ready(() => {
   displayCurrency();
   $("#exchange-form").submit(event => {
     event.preventDefault();
+    $(".error").empty();
+    $(".result").empty();
     const usdAmount = parseInt($("#amount").val());
     let chosenCurrency = $("#to").val();
     if(otherCurrencyOption(chosenCurrency)) {
+      $("#equal-sign").hide();
       $("#to-label").text("Enter in Custom Currency")
       $("#currency-selector").empty();
       $("#currency-selector").append(`<input type="text" id="to" name="to" placeholder="For Example: WON" maxlength="3" required>`);
     } else {
-      displayCurrency()
-        .then(response => response.has(chosenCurrency) ? 
-          converter(usdAmount, chosenCurrency) : 
-          $(".error").text(`"Other" currency you entered is invalid or cannot be found.`));
+      otherCurrencyValidTest(chosenCurrency, usdAmount);
     }
-    
   });
 });
