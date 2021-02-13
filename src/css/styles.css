@@ -35,3 +35,7 @@ select, input {
 #equal-sign {
   display: none;
 }
+
+#title {
+  margin-bottom: 50px;
+}

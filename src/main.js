@@ -11,8 +11,13 @@ $(document).ready(() => {
     event.preventDefault();
     const usdAmount = parseInt($("#amount").val());
     const chosenCurrency = $("#to").val();
-    otherCurrencyOption(chosenCurrency);
-    converter(usdAmount, chosenCurrency);
+    if(otherCurrencyOption(chosenCurrency)) {
+      $("#to-label").text("Enter in Custom Currency")
+      $("#currency-selector").empty();
+      $("#currency-selector").append(`<input type="text" id="to" name="to" placeholder="For Example: WON" maxlength="3" required>`)
+    } else {
+      converter(usdAmount, chosenCurrency);
+    }
     
   });
 });

@@ -5,7 +5,7 @@
   </head>
   <body>
     <div class="container">
-      <h1>Currency Exchange Converter</h1>
+      <h1 id="title">Currency Exchange Converter</h1>
       <form id="exchange-form">
         <div class="row">
           <div class="col-sm-4">
@@ -15,7 +15,7 @@
             <label for="usd">From</label>
           </div>
           <div class="col-sm-4">
-            <label for="to">To</label>
+            <label for="to" id="to-label">To</label>
           </div>
         </div>
 
@@ -26,7 +26,7 @@
           <div class="col-sm-4">
             <input type="text" name="usd" id="usd" value="USD" readonly>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4" id="currency-selector">
             <select name="to" id="to">
               <option value="other">Other</option>
             </select>
