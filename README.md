@@ -11,13 +11,14 @@
 * _JavaScript ES6_
 * _jQuery 3.5.1_
 * _Node Package Manager 6.14.9_
-* _webpack 4.39.3_
+* _Webpack 4.39.3_
 * _Babel 7.6.4_
-* _eslint 6.3.0_
+* _ESlint 6.3.0_
+* _ExchangeRate-Api_
 
 ## Description
 
-_Currency converter app using the [Exchangerate-Api](https://www.exchangerate-api.com/), with current emphasis on getting foreign exchange rates from USD to another origin. A user should be able to type in an amount in U.S. dollars and then choose which currency it should be converted to (Example: AUD). By default, the choices are displayed in a dropdown. There is also an "Other" option if the user wants to manually search via input._
+_Currency converter app using the [ExchangeRate-Api](https://www.exchangerate-api.com/), with current emphasis on getting foreign exchange rates from USD to another origin. A user should be able to type in an amount in U.S. dollars and then choose which currency it should be converted to (Example: AUD). By default, the choices are displayed in a dropdown. There is also an "Other" option if the user wants to manually search via input._
 
 ## Setup/Installation Requirements
 
@@ -25,7 +26,7 @@ _Currency converter app using the [Exchangerate-Api](https://www.exchangerate-ap
 1. _Install NodeJS from [Here!](https://nodejs.org/en/)_
 
 ### API Setup
-1. _Navigate to [Exchangerate-Api](https://www.exchangerate-api.com/) to acquire a personal API key._
+1. _Navigate to [ExchangeRate-Api](https://www.exchangerate-api.com/) to acquire a personal API key._
 2. _Enter your email address in the box labeled __"Your Email Address"__._
 3. _Press the __"Get Free Key!"__ button._
 4. _Finalize your new account creation on the following redirected page._
@@ -55,7 +56,7 @@ _Currency converter app using the [Exchangerate-Api](https://www.exchangerate-ap
 
 ## License
 _This software is licensed under the MIT license_
-Copyright (c) 2020 __Tien Nguyen__
+Copyright (c) 2021 __Tien Nguyen__
 
 ## Contact Information
 _<Tien96ng@github.com>_
