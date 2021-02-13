@@ -17,7 +17,7 @@
 
 ## Description
 
-__
+_Currency converter app using the [Exchangerate-Api](https://www.exchangerate-api.com/), with current emphasis on getting foreign exchange rates from USD to another origin. A user should be able to type in an amount in U.S. dollars and then choose which currency it should be converted to (Example: AUD). By default, the choses are displayed in a dropdown. There is also an "Other" option is the user wants to manually search via input._
 
 ## Setup/Installation Requirements
 
