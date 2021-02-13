@@ -32,7 +32,6 @@ export function otherCurrencyOption(option) {
 
 export function otherCurrencyValidTest(chosenCurrency, usdAmount) {
   return displayCurrency()
-        .then(response => response.has(chosenCurrency) ? 
-          converter(usdAmount, chosenCurrency) : 
-          $(".error").text(`"Other" currency you entered is invalid or cannot be found.`));
+    .then(response => response.has(chosenCurrency) ? converter(usdAmount, chosenCurrency) : $(".error").text(`"Other" currency you entered is invalid or cannot be found.`)
+    && $("#equal-sign").hide());
 }

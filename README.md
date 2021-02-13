@@ -4,7 +4,6 @@
 
 #### By Tien Nguyen
 
-
 ## Technologies Used
 
 * _HTML5/CSS3_
@@ -17,6 +16,8 @@
 * _eslint 6.3.0_
 
 ## Description
+
+__
 
 ## Setup/Installation Requirements
 

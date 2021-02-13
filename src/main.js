@@ -15,9 +15,9 @@ $(document).ready(() => {
     let chosenCurrency = $("#to").val().toUpperCase();
     if(otherCurrencyOption(chosenCurrency)) {
       $("#equal-sign").hide();
-      $("#to-label").text("Enter in Custom Currency")
+      $("#to-label").text("Enter in Custom Currency");
       $("#currency-selector").empty();
-      $("#currency-selector").append(`<input type="text" id="to" name="to" placeholder="For Example: WON" maxlength="3" required>`);
+      $("#currency-selector").append(`<input type="text" id="to" name="to" placeholder="For Example: AUD" maxlength="3" required>`);
     } else {
       otherCurrencyValidTest(chosenCurrency, usdAmount);
     }
