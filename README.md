@@ -55,7 +55,7 @@ _Currency converter app using the [ExchangeRate-Api](https://www.exchangerate-ap
 * _Show Currency changes over a specific time frame (+/-)._
 
 ## License
-_This software is licensed under the MIT license_
+_This software is licensed under the MIT license_\
 Copyright (c) 2021 __Tien Nguyen__
 
 ## Contact Information
