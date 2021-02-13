@@ -22,13 +22,12 @@ _Currency converter app using the [Exchangerate-Api](https://www.exchangerate-ap
 ## Setup/Installation Requirements
 
 ### Installing NodeJS
-1. _Download the zip or clone the repo._
-2. _Install NodeJS from [Here!](https://nodejs.org/en/)_
+1. _Install NodeJS from [Here!](https://nodejs.org/en/)_
 
 ### API Setup
 1. _Navigate to [Exchangerate-Api](https://www.exchangerate-api.com/) to acquire a personal API key._
-2. _Enter your email address in the box labeled "Your Email Address"_
-3. _Press the "Get Free Key!" button._
+2. _Enter your email address in the box labeled __"Your Email Address"__._
+3. _Press the __"Get Free Key!"__ button._
 4. _Finalize your new account creation on the following redirected page._
 5. _Your API key should be on the account dashboard page following the account creation page._
 6. _(Optional) You will also be emailed your API key on completion of the account creation._
@@ -37,10 +36,10 @@ _Currency converter app using the [Exchangerate-Api](https://www.exchangerate-ap
 1. _Clone the repo or download the ZIP file of the repo._
 2. _Navigate to the main directory of the repo._
 3. _Open the repo's main directory in the Code Editor of your choice._
-4. _Create a new file named ".env"!_
-5. _Enter the following in the .env file: API_KEY="YOUR API KEY HERE" (Without the quotes)._
-6. _Run the following in your terminal within the repo's main directory: "npm install"._
-7. _When the installation is done, run the following in the terminal: "npm run start"._
+4. _Create a new file named __".env"__._
+5. _Enter the following in the .env file: __API_KEY="YOUR API KEY HERE"__ (Without the quotes)._
+6. _Run the following in your terminal within the repo's main directory: __"npm install"__._
+7. _When the installation is done, run the following in the terminal: __"npm run start"__._
 
 ## Known Bugs
 
