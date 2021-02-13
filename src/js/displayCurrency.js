@@ -13,11 +13,14 @@ export async function displayCurrency() {
     currencies.forEach((value, key) => {
       $("#to").append(`<option value="${key}">${key}</option>`);
     });
+    return currencies;
   }
 }
 
 export async function converter(usd, currency) {
-  const result = await (usd * currency);
-  console.log(result);
+  const currenciesMap = (await displayCurrency());
+  let result = await (usd * currenciesMap.get(currency));
+  $(".usd-amount").text(`${usd} USD`);
+  $(".converted-amount").text(`${result.toFixed(2)} ${currency}`)
   return result;
 }

@@ -16,6 +16,7 @@ select {
 }
 
 .error {
+  margin-top: 20px;
   color: red;
 }
 
@@ -25,4 +26,12 @@ button {
 
 input:hover, select:hover {
   cursor: url(https://cur.cursors-4u.net/others/oth-2/oth192.cur), auto !important;
+}
+
+select, input {
+  font-weight: bold;
+}
+
+#equal-sign {
+  display: none;
 }

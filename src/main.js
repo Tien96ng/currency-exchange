@@ -7,6 +7,11 @@ import {displayCurrency, converter} from "./js/displayCurrency.js";
 
 $(document).ready(() => {
   displayCurrency();
-  converter(1, 3.6725);
-
+  $("#exchange-form").submit(event => {
+    event.preventDefault();
+    const usdAmount = parseInt($("#amount").val());
+    const chosenCurrency = $("#to").val();
+    converter(usdAmount, chosenCurrency);
+    $("#equal-sign").show();
+  });
 });

@@ -24,7 +24,7 @@
             <span id="dollar-sign">$</span><input type="number" name="amount" id="amount" required min="0">
           </div>
           <div class="col-sm-4">
-            <input type="text" name="usd" id="usd" value="USD">
+            <input type="text" name="usd" id="usd" value="USD" readonly>
           </div>
           <div class="col-sm-4">
             <select name="to" id="to">
@@ -38,6 +38,9 @@
 
     <div id="ouput" class="container">
       <h1 class="error"> </h1>
+      <h1 class="usd-amount result"></h1>
+      <h1 id="equal-sign">=</h1>
+      <h1 class="converted-amount result"></h1>
     </div>
 
   </body>
