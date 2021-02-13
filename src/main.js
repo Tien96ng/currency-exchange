@@ -12,7 +12,7 @@ $(document).ready(() => {
     $(".error").empty();
     $(".result").empty();
     const usdAmount = parseInt($("#amount").val());
-    let chosenCurrency = $("#to").val();
+    let chosenCurrency = $("#to").val().toUpperCase();
     if(otherCurrencyOption(chosenCurrency)) {
       $("#equal-sign").hide();
       $("#to-label").text("Enter in Custom Currency")

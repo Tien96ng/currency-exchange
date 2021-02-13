@@ -27,7 +27,7 @@ export async function converter(usd, currency) {
 }
 
 export function otherCurrencyOption(option) {
-  return option === "other" ? true : false;
+  return option === "OTHER" ? true : false;
 }
 
 export function otherCurrencyValidTest(chosenCurrency, usdAmount) {
