@@ -21,7 +21,7 @@ select {
 }
 
 button {
-  margin-top: 15px;
+  margin-top: 30px;
 }
 
 input:hover, select:hover {
@@ -63,7 +63,11 @@ select:focus, input:focus {
 .usd-amount {
   color: black;
   -webkit-animation-name: usaColors;
-  /* -webkit-animation-name: blackWhiteFade; */
   -webkit-animation-iteration-count: infinite;  
   -webkit-animation-duration: 2s; 
-}   
+}
+
+button:hover {
+  transform: rotate(360deg);
+  transition: all 0.5s ease-in-out 0s;
+ }
