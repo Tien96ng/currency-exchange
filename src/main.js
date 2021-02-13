@@ -10,13 +10,16 @@ $(document).ready(() => {
   $("#exchange-form").submit(event => {
     event.preventDefault();
     const usdAmount = parseInt($("#amount").val());
-    const chosenCurrency = $("#to").val();
+    let chosenCurrency = $("#to").val();
     if(otherCurrencyOption(chosenCurrency)) {
       $("#to-label").text("Enter in Custom Currency")
       $("#currency-selector").empty();
-      $("#currency-selector").append(`<input type="text" id="to" name="to" placeholder="For Example: WON" maxlength="3" required>`)
+      $("#currency-selector").append(`<input type="text" id="to" name="to" placeholder="For Example: WON" maxlength="3" required>`);
     } else {
-      converter(usdAmount, chosenCurrency);
+      displayCurrency()
+        .then(response => response.has(chosenCurrency) ? 
+          converter(usdAmount, chosenCurrency) : 
+          $(".error").text(`"Other" currency you entered is invalid or cannot be found.`));
     }
     
   });
